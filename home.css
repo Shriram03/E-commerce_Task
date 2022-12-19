@@ -1,0 +1,33 @@
+.container{
+    margin-top: 50px;
+    width: 100%;  
+    height: 300px;
+}
+.container img{
+    height: 150px;
+}
+body{
+    font-family: sans-serif;
+    
+}
+.product{
+    float: left;
+    width: 25%;
+    
+}
+.action{
+    margin-top: 50px;
+    width: 30%;
+    margin: 10px 40%;
+}
+.action button{
+    margin-top: 50px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding:15px 30px ;
+}
+#demo li{
+    list-style-type: none;
+}

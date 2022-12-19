@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password reset</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <style>
+        .form{
+            height: 350px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="form" id="hidein" style="display: block;">
+        <div class="title">Forgot Password?</div>
+        <div class="subtitle">Reset Here</div>
+    <div class="input-container ic2">
+        <input id="ques" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="ques" class="placeholder">Enter your favourite color</label>
+        <button onclick="passreset()"a class="submit">submit</button>
+    </div>
+    </div>
+    <div id="hide" style="display: none;">
+    <div class="form">
+      <div class="input-container ic2">
+        <input id="password" class="input" type="password" placeholder=" " />
+        <div class="cut cut-short"></div>
+        <label for="password" class="placeholder">Password</>
+      </div>
+      <div class="input-container ic2">
+        <input id="password1" class="input" type="password" placeholder=" " />
+        <div class="cut cut-short"></div>
+        <label for="password" class="placeholder">Confirm Password</>
+      </div>
+      <button onclick="passcheck()" class="submit">submit</button>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</head>
+<body>
+    <center>
+        <img src="Images/logo.png" width="150px">
+    </center>
+    <h1 id="display">Welcome Shriram</h1>
+    <p>Please place your order</p>
+    <div class="container">
+        <div class="product">
+            <img onclick="showQuantity1()" src="Images/1.jpg" width="50px">
+            <p id="bill1">Vaseline Moisturizer</p>
+            <p>&#8377;290</p>
+            <div id="quaNtity" style="display: none;">
+            Quantity <input type="number" id="one" value="1">
+            </div>
+        </div>
+        
+        <div class="product">
+            <img onclick="showQuantity2()" src="Images/2.jpg" width="50px">
+            <p id="bill2">Dove Shampoo</p>
+            <p>&#8377;230</p>
+            <div id="quAntity" style="display: none;">
+            Quantity <input type="number" id="two" value="1">
+            </div>
+        </div>
+        
+        <div class="product">
+            <img onclick="showQuantity3()" src="Images/3.jpg" width="50px">
+            <p id="bill3"> Axe Deodrant</p>
+            <p>&#8377;190</p>
+            <div id="qUantity" style="display: none;">
+            Quantity <input type="number" id="three" value="1">
+            </div>
+        </div>
+        <div class="product">
+            <img onclick="showQuantity4()" src="Images/4.jpg" width="80px">
+            <p id="bill4"> Himalayas</p>
+            <p>&#8377;100</p>
+            <div id="Quantity" style="display: none;">
+            Quantity <input type="number" id="four" value="1">
+            </div>
+        </div>
+    </div>
+    <div class="action">
+    <button onclick="show()">Add to Cart</button>
+    <button onclick="checkout()">CheckOut</button>
+    </div>
+    <center>
+    <p id="demo"></p>
+    <p id="billll"></p>
+    </center>
+</body>
+</html>
